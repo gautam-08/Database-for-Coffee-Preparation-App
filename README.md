@@ -1,4 +1,5 @@
-#Coffee Bean App
+**Coffee Bean App**
+
 The Coffee Bean App is a simple Python application that helps you track different coffee beans, how you've prepared them, and your rating for each preparation method. It allows you to store and retrieve information about coffee beans and find the best preparation method for each bean based on your ratings.
 
 Features
