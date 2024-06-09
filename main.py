@@ -53,7 +53,7 @@ def prompt_find_bean(connection):
             print(f"{bean[1]} ({bean[2]} - {bean[3]}/100")
 
 def prompt_find_best_method(connection):
-        name = input("enter bean name to find: ")
+        name = input("enter bean name to find the  best preperation for that bean: ")
         best_method = database.get_best_preparation_for_bean(connection, name)
         print(f"the best preparation method for {name} is: {best_method[2]}. ")
 
